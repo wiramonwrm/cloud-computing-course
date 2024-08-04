@@ -20,6 +20,7 @@ else:
   pred_msg = "NEUTRAL"
 
 # Display the customized message 
-st.write('Your Message:', **{user_input}**)
+st.write(f"Your Message: **{user_input}**")
 st.write('-------------------------------')
-st.write('Prediction:', **{pred_msg}**)
+st.write(f"Prediction: **{pred_msg}**")
+
