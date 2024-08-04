@@ -14,9 +14,9 @@ user_input = st.text_input('Enter a message:', 'Your message :)')
 st.write('-------------------------------')
 prediction = model.predict([user_input])
 if prediction == "pos":
-  pred_msg = "POSITIVE"
+  pred_msg = "POSITIVE 😀"
 elif prediction == "neg":
-  pred_msg = "NEGATIVE"
+  pred_msg = "NEGATIVE 😖"
 else:
   pred_msg = "NEUTRAL"
 
