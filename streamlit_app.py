@@ -10,7 +10,8 @@ st.title('Sentiment Analysis App')
 # Add a welcome message 
 st.write('Type message and enter to see the result!') 
 # Create a text input 
-user_input = st.text_input('Enter a message:', 'Hello, Streamlit!') 
+user_input = st.text_input('Enter a message:', 'Your message :)') 
+st.write('-------------------------------')
 prediction = model.predict([user_input])
 if prediction == "pos":
   pred_msg = "POSITIVE"
